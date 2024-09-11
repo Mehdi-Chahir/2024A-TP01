@@ -27,13 +27,23 @@ Exemple:
 
 
 
+import math
 
-water_quantity = input("Entrer la quantité d'eau à assainir en litre") 
-x=water_quantity 
-print(x)
+water_quantity = float(input("Entrer la quantité d'eau à assainir en litre") )
+x=water_quantity
+
+#print("votre quantité d'eau à assainir est de " x ")
 lampesUV=3
-chlore=0,5+"kg"
+chlore=0.5
 filtre=1
 
+filtreNecessaire= (x*1)/5
+lampeNecessaire= (x*3)/5
+chloreNecessaire=(x*0.5)/5
+
+print("Voici les matériaux requis pour l'assainissement de", x,   "L d'eau :" ,filtreNecessaire ,"filtres, ",lampeNecessaire, "lampes UV ""et" ,chloreNecessaire, "kg de chlore" )
+#print("la quantité nécessaire de filtre est de " filtreNecessaire)
+#print("la quantité nécessaire de filtre est de " lampeNecessaire)
+#print("la quantité nécessaire de filtre est de " chloreNecessaire)
 
 
