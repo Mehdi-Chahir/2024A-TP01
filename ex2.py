@@ -28,4 +28,6 @@ Exemple:
 
 
 
-water_quantity = input("Entrer la quan")
+water_quantity = input("Entrer la quantité d'eau à assainir")
+x=water_quantity 
+print(x)
