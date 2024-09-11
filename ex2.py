@@ -28,6 +28,12 @@ Exemple:
 
 
 
-water_quantity = input("Entrer la quantité d'eau à assainir")
+water_quantity = input("Entrer la quantité d'eau à assainir en litre") 
 x=water_quantity 
 print(x)
+lampesUV=3
+chlore=0,5+"kg"
+filtre=1
+
+print(
+
