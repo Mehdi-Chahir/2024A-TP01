@@ -1,5 +1,7 @@
 # TODO: Créer un script permettant le formattage du livre des records des JO.
 
+
 country = input("De quelle nationalité est l'athlète ? ")
-athlete = ...
-date = ...
+athlete = input("Quelle est le nom de l'athelète ?")
+date = input("Quelle est la date du record ?")
+aa= input("Mehdi")
