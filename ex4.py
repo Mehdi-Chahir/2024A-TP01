@@ -5,15 +5,19 @@
 
 battery_level = int(input("Quelle est le Pourcentage de la batterie : "))
 
-if battery_level >= 50:
-    print(f"{battery_level*2}Km")
-elif battery_level >= 25 :
-    print(f"{battery_level*0.5}Km")
-elif battery_level >=10 :
-    print(f"{battery_level*1}Km")
-elif battery_level >= 5 :
-    print(f"{battery_level*2.5}Km")
-elif battery_level >= 0:
-    print(f"{battery_level*6}Km")
+if battery_level > 100 or battery_level < 0:
+    print("Le pourcentage de la batterie doit être compris entre 0 et 100.")
+else:
+    if battery_level >= 50:
+        distance = battery_level * 2
+    elif battery_level >= 25:
+        distance = battery_level * 1.5
+    elif battery_level >= 10:
+        distance = battery_level * 1.2
+    elif battery_level >= 5:
+        distance = battery_level * 0.8
+    else:
+        distance = battery_level * 0.5
 
+    print(f"L'autonomie estimée est de {distance} Km.")
           
