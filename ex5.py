@@ -11,6 +11,7 @@ Consignes:
 - Demander la chaîne de caractères représentant le résultat d'un pays
 - Afficher le nombre de médailles de ce pays
 - Si un caractère inattendu se glisse dans la chaîne, veuillez afficher une erreur
+#.1
 
 Exemple: 
 
@@ -49,6 +50,8 @@ else:
           elif x == "B":
                       Bronze+=1
      print(f"Results: {Gold}gold medals, {Silver}silver medals, {Bronze}bronze medals")
+     
+
                   
                   
   
