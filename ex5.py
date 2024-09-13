@@ -31,8 +31,36 @@ AGSB        GSB
 """
 Pays=input("Quel est votre pays?")
 codeMedaille=input("Quel est le résultat de votre pays? ")
+MEDAL_TYPE = {"G","B","S"}
 
+Gold=0
+Silver = 0
+Bronze = 0
 for x in codeMedaille:
-     if x !="G" and "S" and "B":
-        print ("erreur de code")
+     if x not in MEDAL_TYPE:
+           print("Ceci est une chaîne invalide | Veuillez entrer une chaîne valide.") 
+           break 
+else:  
+     for x in codeMedaille:
+          if x=="G":
+             Gold+=1
+          elif x=="S":
+                 Silver+=1
+          elif x == "B":
+                      Bronze+=1
+     print(f"Results: {Gold}gold medals, {Silver}silver medals, {Bronze}bronze medals")
+                  
+                  
+  
+  
+  
+  
+  
+  
+   
+     
+
+      
+
+          
 
