@@ -3,7 +3,7 @@
 
 import math
 
-water_quantity = float(input("Entrer la quantité d'eau à assainir en litre") )
+water_quantity = int(input("Quelle quantité d'eau faut-il assainir ? ") )
 x=water_quantity
 
 filtreNecessaire= (x*1)/5
